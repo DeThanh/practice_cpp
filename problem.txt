@@ -1,0 +1,26 @@
+Câu 1:
+Trò chơi con rắn
+Time limit: 1 seconds
+Bạn Trung là sinh viên học Công nghệ thông tin nhưng lần đầu tiên chơi trò chơi rắn săn mồi nên không
+biết cách thức chơi như thế nào. Bạn Trung nghĩ rằng với 1 con rắn đủ dài, nếu tạo được một hình chữ
+nhật lớn nhất thì sẽ chiến thắng. Tuy nhiên, với suy nghĩ sai lầm như thế, Trung không thể nào chiến
+thắng trò chơi với mọi ván chơi mà Trung đã thử. Bực mình, Trung quyết định làm 1 game con rắn
+theo suy nghĩ của mình.
+Khi trò chơi của Trung khởi tạo, máy tính sẽ đưa ra 4 số tự nhiên, bạn có thể hoán vị thứ tự 4 số đó tùy
+ý trước khi bắt đầu chơi. Khi trò chơi bắt đầu, con rắn sẽ tự động lần lượt tiến về phía trước 1 khoảng
+cách đúng bằng số thứ nhất sau khi hoán vị. Sau đó con rắn sẽ quay trái 1 góc 90 độ, rồi tiếp tục tiến
+về phía trước 1 khoảng cách đúng bằng số thứ hai sau khi hoán vị. Việc quay trái 90 độ và tiến về phía
+trước lặp đi lặp lại cho đến khi thực hiện hết 4 số đã cho.
+Nhiệm vụ của bạn là dự đoán con rắn có thể tạo ra hình chữ nhật có diện tích lớn nhất là bao nhiêu?
+Input
+- Dòng dòng duy nhất chứa 4 số nguyên dương không quá 100.
+Output
+- In ra một số nguyên là diện tích lớn nhất mà con rắn có thể tạo thành.
+Scoring
+- 100 % điểm với ràng buộc bài toán đã cho.
+
+Examples
+standard input standard output
+Input           Output
+1 2 3 4 3       3
+4 4 4 4 1       16
