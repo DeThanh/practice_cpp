@@ -24,3 +24,27 @@ standard input standard output
 Input           Output
 1 2 3 4 3       3
 4 4 4 4 1       16
+
+Câu 2:
+ SỐ NGUYÊN TỐ TRONG ĐOẠN
+ Cho 2 số nguyên dương a, b. Có bao nhiêu số nguyên tố trong đoạn [a, b].
+
+Dữ liệu nhập:
+
+  - Dòng đầu tiên ghi số k là số các đoạn [a, b]
+
+  - Tiếp theo là k  dòng mỗi dòng ghi 2 số a, b.
+
+Kết quả:
+
+  - Gồm k dòng, dòng thứ i ghi một số là số các số nguyên tố trong đoạn [a, b] thứ i đã cho.
+
+Ràng buộc:
+
+   - 1 ≤ a  ≤ b  ≤ 1.000.000
+
+   - 1 ≤ k ≤ 100
+
+  Input         Output
+  1             
+  1 5           3
